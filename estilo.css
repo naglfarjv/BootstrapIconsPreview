@@ -1,4 +1,4 @@
-    .btn-bd-primary {
+.btn-bd-primary {
     font-weight: 600;
     color: #7952b3;
     border-color: #7952b3
@@ -632,11 +632,6 @@
     padding-bottom: 4.5rem !important
 }
 
-@font-face {
-    font-family: bootstrap-icons;
-    src: url("../../font/fonts/bootstrap-icons.woff2?231ce25e89ab5804f9a6c427b8d325c9") format("woff2"), url("../../font/fonts/bootstrap-icons.woff?231ce25e89ab5804f9a6c427b8d325c9") format("woff")
-}
-
 [class^="bi-"]::before,
 [class*=" bi-"]::before {
     display: inline-block;
@@ -659,7 +654,27 @@
     content: "\f3ed"
 }
 
+
+/* estilos personalizados */
+
+.fondo {
+    background-color: #fdfdfd;
+    background-image: radial-gradient(circle, #ddd 1px, rgba(0, 0, 0, 0) 1px);
+    background-size: 1rem 1rem;
+}
+
+.fondo>i {
+    font-size: 10rem;
+}
+
 @media (max-width: 575px) {
     .fondo {
         min-height: auto !important;
     }
+}
+
+.footer {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    ;
+}
